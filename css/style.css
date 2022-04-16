@@ -1,0 +1,701 @@
+:root {
+    /* Primario */
+    --Rosa: rgb(255, 82, 191);
+    --Rosa_Claro: rgb(255, 143, 216);
+    --Vermelho_Claro: rgb(255, 66, 66);
+    /* Neutral */
+    --Cyan_MuitoPreto: rgb(0, 37, 46);
+    --Azul_MuitoPalido: hsl(207, 100%, 98%);
+}
+
+
+.container {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.botaoLogo a {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: 3px var(--Rosa) solid;
+    color: var(--Rosa);
+    text-decoration: none;
+    padding: 5px 20px 6px 20px;
+    border-radius: 30px;
+}
+
+.botaoLogo a:hover {
+    border: 3px var(--Rosa_Claro) solid;
+    color: var(--Rosa_Claro);
+    transition: 0.5s;
+
+}
+
+.Container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Conteudo {
+    margin-top: 200px;
+
+}
+
+.Conteudo h1 {
+    color: var(--Cyan_MuitoPreto);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.ConteudoInfo {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.ConteudoInfo h3 {
+    color: var(--Cyan_MuitoPreto);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.botaoConteudo {
+    display: flex;
+    justify-content: center;
+  
+}
+.botaoConteudo a {
+    width: 370px;
+    height: 75px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    background-color: var(--Rosa);
+}
+.botaoConteudo a p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+text-align: center;
+margin-top: 25px;
+}
+.botaoConteudo a:hover {
+    transition: 0.5s;
+    background-color: var(--Rosa_Claro);
+    filter: drop-shadow(var(--Cyan_MuitoPreto) -1px 1px 1px);
+}
+.Dados {
+    display: flex;
+    margin-top: 100px;
+}
+.Dados img {
+    width: 100%;
+}
+.DadosInfo {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.DadosInfo {
+    margin-top: 70px;
+}
+.DadosInfo1 h1 {
+    color: var(--Cyan_MuitoPreto);
+    margin-top: 0;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+}
+.DadosInfo1 p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -70px;
+font-weight: 600;
+    color: gray;
+    font-size: 20px;
+}
+main {
+    color: var(--Cyan_MuitoPreto);
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+/* main */
+
+.mainImg1 img {
+    width: 100%;
+    height: 165px;
+}
+.mainImg1 {
+    width: 100%;
+    height: 140px;
+}
+.Conteudomain {
+    display: flex;
+    flex-direction: row;
+     background-color: #F6FBFF; 
+    
+   
+    width: 100%;
+    height: 500px;
+}
+.ConteudoImg1 {
+    width: 100%;
+    height: 400px;
+}
+.ConteudoImg1 img {
+    width: 80%;
+    margin-top: 30px;
+}
+.textMain {
+    margin-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    width: 100%;
+  
+}
+.textMain h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.textMain p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    max-width: 70%;
+}
+.mainImg2 {
+    height: 100px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+.Conteudomain2 {
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+margin-bottom: 100px;
+    flex-direction: row-reverse;
+    display: flex;
+}
+.textMain2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 160px;
+}
+.ConteudoImg2 img {
+    margin-top: 9%;
+    width: 70%;
+    margin-left: 10%;
+}
+.ConteudoImg2 {
+    width: 100%;
+    height: 400px;
+}
+.textMain2 h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  
+}
+.textMain2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    max-width: 80%;
+}
+/* main 3 */
+.mainImg3{
+    display: flex;
+    width: 100%;
+}
+.mainImg3 img{
+    width: 100%;
+}
+.mainImg4{
+    display: flex;
+    width: 100%;
+}
+.mainImg4 img{
+    width: 100%;
+}
+.finalmain{
+    height: 350px;
+    display: flex;
+    margin-top: 10%;
+   flex-direction: column;
+}
+.finaltext{
+    display:flex;
+    justify-content: center;
+}
+.finaltext h1{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.botaoFinal{
+  
+  display: flex;
+    justify-content: center;
+}
+.botaoFinal a{
+    /* padding: 25px 100px 25px 100px; */
+    width: 350px;
+    height: 75px;
+text-decoration: none;
+    text-align: center;
+    background-color: var(--Rosa);
+    border-radius: 50px;
+} 
+.botaoFinal a p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--Azul_MuitoPalido);
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 21px;
+}
+.botaoFinal a:hover{
+    transition: 0.6s;
+    filter: drop-shadow(var( --Cyan_MuitoPreto) -1px 1px 1px);
+    background-color: var(--Rosa_Claro);
+}
+.backfundo img{
+    width: 100%;
+    display: flex;
+}
+.ConteudoFooter{
+    width: 100%;
+    height: 500px;
+
+
+    background-color:  var(--Cyan_MuitoPreto);
+}
+.ConteudoFooter img{
+    width: 250px;
+    height: 40px;
+}
+.FooterEspaco{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.InfoFooter p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #e2f1ff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.InfoFooter{
+  margin-top: 100px;
+    width: 50%;
+    height: 400px;
+
+}
+.FormFooter{
+    margin-top: 100px;
+    width: 50%;
+    height: 400px;
+margin-left: 20%;
+}
+.ContatoFooter img{
+width: 20px;
+height: 20px;
+
+}
+.ContatoFooter{
+    display: flex;
+flex-direction: row;
+}
+.ContatoFooter p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+font-size: 17px;
+margin-top: 0;
+margin-left: 15px;
+}
+.redes{
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+}
+a .fa-github{
+    color:var(--Rosa);
+}
+a .fa-linkedin{
+    color: var(--Rosa);
+}
+.fa-linkedin:hover{
+    color: var(--Rosa_Claro);
+}
+.fa-github:hover{
+    color: var(--Rosa_Claro);
+}
+.fa-brands{
+    cursor: pointer;
+  
+    color: var(--Azul_MuitoPalido);
+margin-left: 30px;
+}
+.fa-facebook-square{
+    margin-left: 0;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: var(--Rosa);
+}
+.fa-twitter-square:hover{
+    color: cyan; 
+}
+
+.FormFooter h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--Azul_MuitoPalido);
+    font-weight: 700;
+    
+}
+.FormFooter p{
+    color: var(--Azul_MuitoPalido);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+form input{
+width: 270px;
+border-radius: 8px;
+height: 40px;
+border: 1px var(--Cyan_MuitoPreto) solid;
+
+}
+form{
+width: 100%;
+height: 50px;
+}
+form button{
+    color: var(--Azul_MuitoPalido);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    width: 140px;
+    height: 44px;
+    background-color: var(--Rosa);
+    margin-left: 40px;
+    border-radius: 8px;
+}
+form button:hover{
+    background-color: var(--Rosa_Claro);
+    transition: 0.6s;
+}
+@media (max-width:1000px){
+    form button{
+        margin-left: 135px;
+        margin-top: 15px;}
+    .ConteudoImg1 img{
+    width: 100%;}
+    .ConteudoImg2 img{
+        
+    width: 100%;}
+    .ConteudoImg3 img{
+    width: 100%;}
+    .mainImg1 img{
+        height: 100px;
+        z-index: -1;}
+    .mainImg1{
+        width: auto;
+        height: auto;
+        display: flex;}
+    .Conteudomain{
+        display: flex;
+        height: auto}
+    .textMain{
+        width: 80%;
+        margin-top: 20%;}
+    .textMain p{
+        max-width: 100%;}
+        .textMain2{
+            
+            margin-top: 22%;
+        
+        }
+        .textMain2 p{
+            margin-left: 60px;
+        }
+        .textMain2 h1{
+           margin-left: 30px;
+            font-size: 30px;
+        }
+.ConteudoInfo{
+    margin: 0;
+}
+.Conteudo h1{
+    font-size: 40px
+}
+.Conteudomain2{
+
+    margin-bottom: -100px;
+}
+}
+@media (max-width:800px){
+    .DadosInfo{
+        flex-direction: column;
+        
+    }
+.centerInfo{
+    display: flex;
+    justify-content: center;
+}
+.Conteudomain{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ConteudoImg1{
+    display: flex;
+justify-content: center;
+
+}
+.ConteudoImg1 img{
+    width: 60%;
+    height: auto;
+}
+.textMain{
+    margin: 0;
+width: 600px;
+
+}
+.textMainCenter{
+    display: flex;
+    justify-content: center;
+}
+.textMain h1{
+    display: flex;
+    justify-content: center;
+}
+.textMain p{
+    display: flex;
+    justify-content: center;
+}
+.Conteudomain2{
+margin-bottom: 60px;
+ 
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ConteudoImg2 img{
+width: 50%;
+height: 300px;
+margin: 0;
+
+
+}
+.ConteudoImg2{
+    display: flex;
+    justify-content: center;
+}
+.textMain2{
+width: 600px;
+    margin: 0;
+    
+}
+.textMain2 h1{
+display: flex;
+justify-content: center;
+}
+.textMain2 p{
+    margin: auto;
+  
+    }
+        .ConteudoFooter{
+            height: 550px;
+        }
+        .ConteudoFooter{
+            height: 800px;
+             
+           }
+           .FooterEspaco{
+               flex-direction: column-reverse;
+            
+           }
+           .FormFooter{
+               width: 300px;
+               margin: auto;
+               
+           }
+           .InfoFooter{
+            width: 300px;
+               margin: auto;
+           }
+           .FormFooter p br{
+display: none;
+           }
+           .InfoFooter p br{
+               display: none;
+           }
+           
+}
+.imgCelular{
+    display: none;
+}
+@media (max-width:500px){
+.redes .fa-brands{
+    margin-left: 10px;
+}
+    .finaltext h1{
+        text-align: center;
+        font-size: 30px;
+  
+    }
+.imgdesktop{
+    display: none;
+}
+.imgCelular{
+    display: flex;
+}
+.InfoFooter{
+    width: 100%;
+}
+.FormFooter{
+    width: 100%;
+}
+.FormFooter form input{
+   margin: auto;
+width: 99%;
+height: 60px;
+}
+form button{
+    
+    
+    float: right;
+    width: 50%;
+    height: 60px;
+
+}
+.botaoConteudo{
+    margin-top: 50px;
+}
+.botaoConteudo a{
+    width: 200px;
+    height: 50px;
+}
+.botaoConteudo a p{
+    margin-top: 14px;
+    font-size: 15px;
+}
+.container{
+padding: 30px;
+}
+.Container{
+    margin: 0;
+}
+.Conteudo h1{
+    font-size: 30px;
+}
+.logo img{
+
+    width: 120px;
+    height: 23px;
+}
+.logo{
+    height: 50px;
+}
+.DadosInfo1:nth-child(2){
+    margin-top: 100px;
+}
+.botaoLogo a{
+    font-size: 10px;
+    height: 13px;
+
+    width: 50px;
+}
+.Conteudo{ 
+    margin-top: 150px;
+}
+.botaoConteudo a p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.botaoFinal a{
+    width: 200px;
+    height: 50px;
+}
+.botaoFinal a p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.textMain{
+    text-align: center;
+}
+.textMain2 h1{
+    margin: 0;
+}
+.textMain2 p{
+    margin-top: 20px;
+    text-align: center;
+}
+.ConteudoImg1 img{
+    width: 80%;
+    height: 350px;
+}
+.ConteudoImg2 img{
+    width: 80%;
+}
+}
+@media (max-width:400px){
+    .ConteudoImg1 img{
+        width: 80%;
+        margin-top: 100px;
+        height: 300px;
+    }
+  
+}
+@media (max-width:400px){
+    .ConteudoImg1 img{
+        width: 80%;
+        margin-top: 50px;
+        height: 250px;
+    }
+    .textMain h1{
+        font-size: 25px;
+    }
+    .textMain{
+padding: 0px 30px 30px 30px;        
+    }
+   
+    .textMain2 h1{
+        font-size: 25px;
+
+    }
+.Conteudo{
+    margin-top: 100px;
+}
+}
